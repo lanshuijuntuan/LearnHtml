@@ -67,6 +67,12 @@
   <ItemGroup>
     <Content Include="1gif.gif" />
     <Content Include="HtmlFirst.html" />
+    <Content Include="HtmlPage1.html" />
+    <Content Include="HtmlTest10.html" />
+    <Content Include="HtmlTest11.html" />
+    <Content Include="HtmlTest12.html" />
+    <Content Include="HtmlTest13.html" />
+    <Content Include="HtmlTest9.html" />
     <Content Include="Htmlrunnnob.html" />
     <Content Include="HtmlTest.html" />
     <Content Include="HtmlTest1.html" />
@@ -76,6 +82,8 @@
     <Content Include="HtmlTest5.html" />
     <Content Include="HtmlTest6.html" />
     <Content Include="HtmlTest7.html" />
+    <Content Include="HtmlTest8.html" />
+    <Content Include="myStyleSheet.css" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>

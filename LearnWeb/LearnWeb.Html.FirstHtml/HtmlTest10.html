@@ -1,0 +1,42 @@
+﻿<!--此文档是关于Img标签的demo-->
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+</head>
+<body>
+    <h2>这是什么图片</h2>
+    <img  src="" alt="这儿是张图片" width="100" height=" 100"/>
+    <p>这是一张来自本地文件的图片：</p>
+    <img src="1gif.gif" width="200" height="200" alt="这是一张图片" />
+    <p>这是一张来自网络的图片</p>
+    <img src="http://www.runoob.com/images/logo.png" alt="runnoob logo" width="200" height="200" border="0"  />
+
+    <h2>下面是测试图片和文字对齐</h2>
+    <p>测试默认对齐：这是图片前面的文字，<img  src="1gif.gif" />，这是图片后面的文字</p>
+
+    <p>测试中间对齐：这是图片前面的文字，<img src="1gif.gif" align="middle" />，这是图片后面的文字</p>
+
+    <p>测试顶部对齐：这是图片前面的文字，<img src="1gif.gif" align="top" />，这是图片后面的文字</p>
+
+    <h2>下面是测试图片的float属性：</h2>
+    <h3>图片浮动在右边</h3>
+    <p>
+        <img  src="1gif.gif" style="float:right;width:100px;height:100px"/>这是测试文字，本段图片浮动在右边，这是测试文字，本段图片浮动在右边这是测试文字，本段图片浮动在右边这是测试文字，本段图片浮动在右边这是测试文字，本段图片浮动在右边这是测试文字，本段图片浮动在右边这是测试文字，本段图片浮动在右边这是测试文字，本段图片浮动在右边这是测试文字，本段图片浮动在右边这是测试文字，本段图片浮动在右边这是测试文字，本段图片浮动在右边这是测试文字，本段图片浮动在右边这是测试文字，本段图片浮动在右边这是测试文字，本段图片浮动在右边这是测试文字，本段图片浮动在右边这是测试文字，本段图片浮动在右边这是测试文字，本段图片浮动在右边
+    </p>
+    <h3>图片浮动在左边</h3>
+    <p>
+        <img src="1gif.gif" style="float:left;width:100px;height:100px" />这是测试文字，本段图片浮动在左边。这是测试文字，本段图片浮动在左边。这是测试文字，本段图片浮动在左边。这是测试文字，本段图片浮动在左边。这是测试文字，本段图片浮动在左边。这是测试文字，本段图片浮动在左边。这是测试文字，本段图片浮动在左边。这是测试文字，本段图片浮动在左边。这是测试文字，本段图片浮动在左边。这是测试文字，本段图片浮动在左边。这是测试文字，本段图片浮动在左边。这是测试文字，本段图片浮动在左边。这是测试文字，本段图片浮动在左边。这是测试文字，本段图片浮动在左边。这是测试文字，本段图片浮动在左边。这是测试文字，本段图片浮动在左边。
+    </p>
+    
+    <h2>接下来是创建图片映射</h2>
+
+    <img  src="1gif.gif"  style="width:100px;height:100px;" usemap="#customMap"/>
+    <map name="customMap">
+        <area shape="rect" coords="0,0,50,50" alt="HtmlTest" href="HtmlTest.html" />
+        <area shape="circle" coords="75,25,50" alt="htmltest1" href="HtmlTest1.html" />
+        <area shape="poly" coords="0,50,0,75,50,83,30,90,0,100" alt="htmltest2" href="HtmlTest2.html" />
+    </map>
+   
+</body>
+</html>

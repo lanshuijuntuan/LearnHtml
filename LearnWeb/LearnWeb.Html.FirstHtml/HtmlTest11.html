@@ -1,0 +1,217 @@
+﻿<!DOCTYPE html>
+<html xmlna="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+</head>
+<body>
+    <h1>表格演示</h1>
+    <h2>1.有边框表格</h2>
+    <table border="1">
+        <tr>
+            <th>序号</th>
+            <th>名称</th>
+            <th>编码</th>
+            <th>品类</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>海飞丝洗发水（250ml)</td>
+            <td>123457-56</td>
+            <td>日用品</td>
+        </tr>
+    </table>
+    <h2>2.无边框表格</h2>
+    <table>
+        <tr>
+            <th>学号</th>
+            <th>姓名</th>
+            <th>年龄</th>
+            <th>性别</th>
+        </tr>
+        <tr>
+            <td>001</td>
+            <td>张三</td>
+            <td>15</td>
+            <td>男</td>
+        </tr>
+        <tr>
+            <td>002</td>
+            <td>李璐</td>
+            <td>14</td>
+            <td>女</td>
+        </tr>
+        <tr>
+            <td>003</td>
+            <td>张倩</td>
+            <td>15</td>
+            <td>女</td>
+        </tr>
+    </table>
+    <h2>3.水平列头</h2>
+    <table>
+        <tr>
+            <th>订单编号</th>
+            <th>订货人</th>
+            <th>日期</th>
+            <th>送货地址</th>
+
+        </tr>
+        <tr>
+            <td>123</td>
+            <td>张三</td>
+            <td>2017/04/16</td>
+            <td>天堂</td>
+
+        </tr>
+        <tr>
+            <td>456</td>
+            <td>李四</td>
+            <td>2017/04/15</td>
+            <td>地狱</td>
+        </tr>
+    </table>
+    <h2>4.垂直列头</h2>
+    <table>
+        <tr>
+            <th>学号</th>
+            <td>001</td>
+            <td>002</td>
+            <td>003</td>
+        </tr>
+        <tr>
+            <th>姓名</th>
+            <td>张</td>
+            <td>李</td>
+            <td>王</td>
+        </tr>
+        <tr>
+            <th>年龄</th>
+            <td>12</td>
+            <td>13</td>
+            <td>14</td>
+        </tr>
+    </table>
+    <h2>5.表的名称</h2>
+    <table>
+        <caption>人员表</caption>
+        <tr>
+            <th>第一列</th>
+            <th>第二列</th>
+            <th>第三列</th>
+            <th>第四列</th>
+        </tr>
+        <tr>
+            <td>值1</td>
+            <td>值1</td>
+            <td>值1</td>
+            <td>值1</td>
+        </tr>
+    </table>
+    <h2>6.单元格跨两格(水平)</h2>
+    <table border="1">
+        <caption>Column Span two units</caption>
+        <tr>
+            <th>Name</th>
+            <th colspan="2">Telephone</th>
+
+        </tr>
+        <tr>
+            <td>Tom</td>
+            <td>110</td>
+            <td>911</td>
+        </tr>
+    </table>
+    <h2>7.单元格跨两格（垂直）</h2>
+    <table border="1">
+        <caption>row  span two row</caption>
+        <tr>
+            <th>Name</th>
+            <td>Tom</td>
+        </tr>
+        <tr>
+            <th rowspan="2">Telephone</th>
+            <td>110</td>
+
+        </tr>
+        <tr>
+            <td>911</td>
+        </tr>
+    </table>
+
+    <h2>8.单元格包含多种内容</h2>
+    <table border="1">
+        <caption>单元格包含多种内容</caption>
+        <tr>
+            <td>
+                <p>这是段落一</p>
+                <p>这是段落二</p>
+            </td>
+            <td>
+                <table border="1">
+                    <caption>单元格二包含table</caption>
+                    <tr>
+                        <td>row 1,col 1</td>
+                        <td>row 1,col 2</td>
+                    </tr>
+                    <tr>
+                        <td>row 2,col 1</td>
+                        <td>row 2,col 2</td>
+                    </tr>
+                </table>
+            </td>
+
+
+        </tr>
+        <tr>
+            <td>
+                <p>这个单元格包含列表</p>
+                <ul>
+                    <li>这是第一项</li>
+                    <li>这是第二项</li>
+                    <li>这是第三项</li>
+                    <li>这是第四项</li>
+                </ul>
+            </td>
+
+            <td>
+                <img src="1gif.gif" height=" 100" width="100" />
+            </td>
+        </tr>
+    </table>
+    <h2>9.单元格的边距(cellpading)</h2>
+    <table cellpadding="10" border="1">
+        <caption>单元格的边距为10</caption>
+        <tr>
+            <td>One</td>
+            <td>Two</td>
+        </tr>
+        <tr>
+            <td>Three</td>
+            <td>Four</td>
+        </tr>
+    </table>
+    <table border="1">
+        <caption>单元格的边距为0</caption>
+        <tr>
+            <td>One</td>
+            <td>Two</td>
+        </tr>
+        <tr>
+            <td>Three</td>
+            <td>Four</td>
+        </tr>
+    </table>
+    <h2>10.单元格间距(cellspacing)</h2>
+    <table border="1" cellspacing="10">
+        <caption>单元格的间距为10</caption>
+        <tr>
+            <td>One</td>
+            <td>Two</td>
+        </tr>
+        <tr>
+            <td>Three</td>
+            <td>Four</td>
+        </tr>
+    </table>
+</body>
+</html>
