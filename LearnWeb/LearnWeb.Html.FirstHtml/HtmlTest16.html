@@ -1,0 +1,87 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>表单</title>
+</head>
+<body>
+    <form>
+        <h1>1.普通的文本框</h1>
+        First Name:
+        <input type="text" style="width:200px" />
+        <br />
+        Last Name:
+        <input type="text" style="width:200px" /><br />
+        <h1>2.密码文本框</h1>
+        Password:
+        <input type="password" style="width:200px" /><br />
+
+        <h1>3.单选按钮</h1>
+        <input type="radio" name="123" />male<br />
+        <input type="radio" name="123" />Female<br />
+        <h1>4.复选框</h1>
+        <input type="checkbox" name="456" />Swimming<br />
+        <input type="checkbox" name="456" />Run<br />
+        <input type="checkbox" name="456" />Basketball<br />\
+        <h1>5.下拉列表</h1>
+        <select name="cars" style="width:200px">
+            <option value="volvo">volov</option>
+            <option value="benz">benz</option>
+            <option value="fiat">fiat</option>
+        </select>
+
+        <h1>6.预选下拉列表</h1>
+        <select name="cars" style="width:200px">
+            <option value="volvo">volov</option>
+            <option value="benz" selected>benz</option>
+            <option value="fiat">fiat</option>
+        </select>
+
+        <h1>7.文本域</h1>
+        <textarea rows="30" cols="100">这是一个文本框</textarea>
+
+        <h1>8.按钮</h1>
+        <input  type="button" value="hello world!">
+    </form>
+    <h1>9.提交按钮</h1>
+    <form name="input" action="HtmlTest17.html" method="get">
+        UserName:<input type="text" name="user" />
+        <input type="submit" value="submit" />
+    </form>
+
+    <h1>10.带边框的表单</h1>
+    <form>
+        <fieldset>
+            <legend>带边框的表单</legend>
+            Name:<input type="text" size="30"/><br />
+            Password:<input  type="text" size="30"/>
+        </fieldset>
+    </form>
+    <h1>11.带提交按钮的表单</h1>
+    <form action="HtmlTest17.html">
+        <fieldset>
+            <legend>用户信息表：</legend>
+            Name:<input type="text" name="name"/><br />
+            Age:<input type="text" name="age"/><br />
+            Male:<input  type="radio" name="male" value="male"/>male<input type="radio" name="male" value="female"/>female<br />
+            Like:<input  type="checkbox" name="like" value="swimming"/>Swimming<input type="checkbox" name="like" value="basketball"/>basketball<input type="checkbox" name="like" value="football"/>football<br />
+            <input  type="submit" name="submit" value="submit"/>
+        </fieldset>
+    </form>
+
+    <h1>12.从表单发送电子邮件</h1>
+    <form action="Mailto:zhouhongquan@netposa.com">
+        <fieldset>
+            <legend>发送电子邮件给zhouhongquan@netposa.com</legend>
+            Your Name:<br />
+            <input  type="text" name="name"/><br />
+            Your Mail:<br />
+            <input type="text" name="mail" /><br />
+            Comment:<br />
+            <input type="text" name="comment" /><br />
+            <input type="submit" value="提交"/>
+            <input type="reset" value="重置" />
+        </fieldset>
+
+    </form>
+</body>
+</html>
